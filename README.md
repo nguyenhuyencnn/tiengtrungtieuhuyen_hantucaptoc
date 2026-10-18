@@ -14,6 +14,14 @@ Website học từ vựng HSK 1–3 của **Tiếng Trung Tiểu Huyền**. Đâ
 5. Vào **Settings → Pages**. Ở mục **Branch** chọn `main`, thư mục `/ (root)`, bấm **Save**.
 6. Chờ 1–2 phút rồi tải lại trang Settings → Pages. Link trang sẽ có dạng `https://<tên-tài-khoản>.github.io/hsk/`.
 
+## Nếu trang báo không tải được âm thanh
+
+- Mở repository trên GitHub, kiểm tra có thư mục `audio` với 39 file `h1-00.mp3` … `h3-16.mp3` chưa. Nếu chưa có: **Add file → Upload files**, kéo cả thư mục `audio` vào (trên máy tính, trình duyệt Chrome hoặc Edge), bấm **Commit changes**.
+- Nếu lỡ tải 39 file MP3 thẳng vào gốc repository (không nằm trong thư mục `audio`), trang vẫn tự tìm được, không cần sửa.
+- Mở trang qua link GitHub Pages (`https://…github.io/…`). Bấm đúp mở file `index.html` ngay trên máy thì trình duyệt chặn đọc âm thanh.
+- Sau khi tải file lên, chờ 1–2 phút để GitHub Pages cập nhật rồi tải lại trang (Ctrl + F5).
+- Khi thiếu file âm thanh, trang báo rõ thiếu file nào và tạm dùng giọng đọc tiếng Trung của trình duyệt.
+
 ## Cập nhật sau này
 
 - Cập nhật trang: chỉ cần tải lên file `index.html` mới để thay file cũ (giữ nguyên thư mục `audio`).
